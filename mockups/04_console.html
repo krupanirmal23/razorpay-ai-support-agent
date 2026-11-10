@@ -1,0 +1,25 @@
+<html><head><link rel="stylesheet" href="base.css"><style>
+body{display:block;padding:34px 40px;height:560px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+h1{font-size:22px;font-weight:600;letter-spacing:-.01em}.grid{display:grid;grid-template-columns:1fr 520px;gap:22px}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14px}
+th{text-align:left;font-weight:500;color:var(--mute);font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;padding:12px 14px;border-bottom:1px solid var(--line);background:var(--paper)}
+td{padding:13px 14px;border-bottom:1px solid var(--line)}tr.sel td{background:#fbf7ee}
+.pill{font-size:12px;padding:3px 8px;border-radius:99px;font-weight:600}
+.side{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+.side h3{font-size:13px;color:var(--mute);font-weight:500;letter-spacing:.05em;text-transform:uppercase;margin:16px 0 8px}
+.side h3:first-child{margin-top:0}
+</style></head><body>
+<div class="top"><h1>Handoff queue</h1><span class="tier t-hand">Ops view · concept</span></div>
+<div class="grid"><table><tr><th>Ticket</th><th>Intent</th><th>Why handed off</th><th>Waiting</th></tr>
+<tr class="sel"><td class="mono">TKT-T05</td><td>Settlement hold</td><td><span class="pill t-hand">Policy: holds</span></td><td>12 min</td></tr>
+<tr><td class="mono">TKT-T15</td><td>Refund</td><td><span class="pill t-act">Above cap</span></td><td>31 min</td></tr>
+<tr><td class="mono">TKT-T20</td><td>Security</td><td><span class="pill t-hand">OTP shared</span></td><td>2 min</td></tr>
+<tr><td class="mono">TKT-T07</td><td>Account suspended</td><td><span class="pill t-hand">Policy: suspension</span></td><td>48 min</td></tr>
+<tr><td class="mono">TKT-T22</td><td>Settlement status</td><td><span class="pill t-answer">Asked for human</span></td><td>5 min</td></tr>
+<tr><td class="mono">TKT-T08</td><td>Account suspended</td><td><span class="pill t-hand">Legal threat</span></td><td>1 h 04 min</td></tr></table>
+<div class="side"><h3>Summary by agent</h3><p>Merchant wants a risk hold lifted to pay salaries. Agent shared the 2 requested documents. No documents uploaded yet.</p>
+<h3>Account snapshot</h3><div class="row"><em>Status</em><span>Activated</span></div><div class="row"><em>Hold</em><span>Risk review · since 8 Nov</span></div><div class="row"><em>Docs requested</em><span>2 · received 0</span></div>
+<h3>What the agent did not do</h3><p style="font-size:14px">Did not promise a release date. Did not explain risk rules. Did not ask for credentials.</p>
+<h3>Merchant sentiment</h3><p style="font-size:14px">Urgent · cash-flow impact stated</p>
+<div class="btns"><span class="btn pri">Take ticket</span><span class="btn">Open full chat</span></div></div></div>
+<div class="tag" style="position:fixed">CONCEPT MOCKUP · NOT AFFILIATED WITH RAZORPAY · SYNTHETIC DATA · KRUPA NIRMAL</div></body></html>

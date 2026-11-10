@@ -1,0 +1,12 @@
+rzp_support https://razorpay.com/support/
+rzp_docs_support https://razorpay.com/docs/payments/dashboard/support/
+rzp_settle_faq https://razorpay.com/docs/payments/settlements/faqs/
+rzp_settle_dash https://razorpay.com/docs/payments/settlements/dashboard/
+rzp_setup https://razorpay.com/docs/payments/set-up/
+rzp_refunds https://razorpay.com/docs/payments/refunds/
+rzp_payfaq https://razorpay.com/docs/payments/payments/faqs/
+rzp_grievance https://razorpay.com/grievance-redressal-policy/
+cf_help https://www.cashfree.com/docs/help/overview
+cf_contact https://www.cashfree.com/contact-us
+payu_home https://payu.in/
+payu_contact https://payu.in/contact-us

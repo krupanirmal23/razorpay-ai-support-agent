@@ -1,0 +1,5 @@
+payu_raise https://help.payu.in/raise-ticket
+payu_help_settle https://payuin.my.site.com/helpcenter/s/article/Why-am-I-not-getting-my-settlements
+payu_dash_faq https://docs.payu.in/docs/faqs-for-dashboard
+payu_help https://help.payu.in/
+rzp_settle_guide https://razorpay.com/settlement/

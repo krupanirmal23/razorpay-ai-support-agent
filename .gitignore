@@ -1,0 +1,5 @@
+raw/
+teardown/text/
+__pycache__/
+*.log
+.venv/
